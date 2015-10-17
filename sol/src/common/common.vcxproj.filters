@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\BoundingIntervalHierarchy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\DynamicTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\MMapFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\MMapManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\VMapFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\VMapManager2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps\MapTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps\TileAssembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models\GameObjectModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models\ModelInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models\WorldModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\EventMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\EventProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\TaskScheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging\Errors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration\Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\Appender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\AppenderConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\AppenderFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\LogOperation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\ARC4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\Authentication\AuthCrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\BigNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\HMACSHA1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\OpenSSLCrypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\SHA1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\GitRevision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\PrecompiledHeaders\commonPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\BoundingIntervalHierarchy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\BoundingIntervalHierarchyWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\DynamicTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\IVMapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\MMapFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\MMapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\VMapFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management\VMapManager2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps\MapDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps\MapTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps\TileAssembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models\GameObjectModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models\ModelInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models\WorldModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\RegularGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\VMapDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\VMapTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading\Callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading\LockedQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading\ProcessPriority.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading\ProducerConsumerQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\ByteConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\Duration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\EventMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\EventProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\StringFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\TaskScheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging\Errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\Appender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\AppenderConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\AppenderFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging\LogOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\ARC4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\Authentication\AuthCrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\BigNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\HMACSHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\OpenSSLCrypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\SHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\WardenKeyGeneration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\CompilerDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\GitRevision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A85EE553-B87B-3776-900A-61BBB1A46484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{48D808F2-AC99-3318-8EAE-4FB5653CCAB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

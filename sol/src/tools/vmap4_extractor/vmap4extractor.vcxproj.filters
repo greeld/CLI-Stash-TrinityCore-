@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\adtfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\dbcfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\gameobject_extract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\mpq_libmpq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\vmapexport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\wdtfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\wmo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\adtfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\dbcfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\loadlib\loadlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\modelheaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\mpq_libmpq04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\vec3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\vmapexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\wdtfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\wmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\vmap4_extractor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A85EE553-B87B-3776-900A-61BBB1A46484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{48D808F2-AC99-3318-8EAE-4FB5653CCAB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

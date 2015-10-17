@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\Recast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastContour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastLayers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastMeshDetail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastRasterization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Source\RecastRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A85EE553-B87B-3776-900A-61BBB1A46484}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

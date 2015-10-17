@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\genrev\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\sol\CMakeFiles\4692ecec7d3c29d4e8064dc90f22383a\revision_data.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\HM\Desktop\cli2\sol\src\genrev\CMakeFiles\revision_data.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{48D808F2-AC99-3318-8EAE-4FB5653CCAB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3E17DEAB-8F3A-3438-88A5-71021A26503F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

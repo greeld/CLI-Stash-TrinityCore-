@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\IntermediateValues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\MapBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\PathGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\TerrainBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\VMapExtensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\IntermediateValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\MapBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\PathCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\TerrainBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A85EE553-B87B-3776-900A-61BBB1A46484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{48D808F2-AC99-3318-8EAE-4FB5653CCAB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

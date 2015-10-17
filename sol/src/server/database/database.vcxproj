@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{70D11F0C-2641-3B9D-9EDA-BB0A122E1FFC}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>database</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\database\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">database.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">database</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\database\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">database.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">database</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\database\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">database.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">database</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\database\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">database.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">database</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>databasePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>databasePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>databasePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>databasePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>databasePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>databasePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>databasePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>databasePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\process;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/database/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/HM/Desktop/cli2/TrinityCore-CLI -BC:/Users/HM/Desktop/cli2/sol --check-stamp-file C:\Users\HM\Desktop\cli2\sol\src\server\database\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/database/CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\cmake\macros\FindMySQL.cmake;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\database\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/database/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/HM/Desktop/cli2/TrinityCore-CLI -BC:/Users/HM/Desktop/cli2/sol --check-stamp-file C:\Users\HM\Desktop\cli2\sol\src\server\database\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/database/CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\cmake\macros\FindMySQL.cmake;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\database\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/database/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/HM/Desktop/cli2/TrinityCore-CLI -BC:/Users/HM/Desktop/cli2/sol --check-stamp-file C:\Users\HM\Desktop\cli2\sol\src\server\database\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/database/CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\cmake\macros\FindMySQL.cmake;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\database\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/database/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/HM/Desktop/cli2/TrinityCore-CLI -BC:/Users/HM/Desktop/cli2/sol --check-stamp-file C:\Users\HM\Desktop\cli2\sol\src\server\database\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/database/CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\cmake\macros\FindMySQL.cmake;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\database\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\AdhocStatement.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\DatabaseEnv.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\DatabaseLoader.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\DatabaseWorker.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\DatabaseWorkerPool.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Field.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Implementation\CharacterDatabase.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Implementation\LoginDatabase.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Implementation\WorldDatabase.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\MySQLConnection.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\MySQLThreading.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\PreparedStatement.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\QueryHolder.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\QueryResult.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\SQLOperation.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Transaction.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Logging\AppenderDB.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater\DBUpdater.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater\UpdateFetcher.h" />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\AdhocStatement.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\DatabaseLoader.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\DatabaseWorker.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Field.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Implementation\CharacterDatabase.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Implementation\LoginDatabase.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Implementation\WorldDatabase.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\MySQLConnection.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\PreparedStatement.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\QueryHolder.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\QueryResult.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database\Transaction.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Logging\AppenderDB.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater\DBUpdater.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Updater\UpdateFetcher.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\PrecompiledHeaders\databasePCH.cpp" >
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">databasePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">databasePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">databasePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">databasePCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/ZERO_CHECK.vcxproj">
+      <Project>2647B17B-6F97-32BC-B235-520760A1CA5C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

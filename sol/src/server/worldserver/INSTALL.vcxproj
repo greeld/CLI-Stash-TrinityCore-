@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{366FA550-4204-3AB2-82E9-729CC83067D0}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>INSTALL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\CommandLine;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\RemoteAccess;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\TCSoap;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\gsoap;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\Authentication;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\authserver\Realms;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Accounts;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Addons;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Battlegrounds;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Chat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Combat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\DataStores;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Corpse;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Creature;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\DynamicObject;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\GameObject;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Item;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Item\Container;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Object;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Object\Updates;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Unit;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Vehicle;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Globals;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Grids;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Grids\Cells;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Handlers;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Instances;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Loot;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Mails;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Miscellaneous;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Movement;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Movement\Waypoints;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Quests;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Scripting;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Server;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Server\Protocol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Spells\Auras;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Weather;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\World;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\DataStores;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Dynamic;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Dynamic\LinkedReference;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Networking;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Packets;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Service;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\CommandLine;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\RemoteAccess;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\TCSoap;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\gsoap;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\Authentication;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\authserver\Realms;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Accounts;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Addons;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Battlegrounds;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Chat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Combat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\DataStores;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Corpse;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Creature;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\DynamicObject;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\GameObject;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Item;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Item\Container;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Object;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Object\Updates;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Unit;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Vehicle;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Globals;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Grids;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Grids\Cells;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Handlers;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Instances;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Loot;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Mails;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Miscellaneous;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Movement;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Movement\Waypoints;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Quests;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Scripting;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Server;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Server\Protocol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Spells\Auras;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Weather;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\World;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\DataStores;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Dynamic;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Dynamic\LinkedReference;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Networking;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Packets;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Service;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\CommandLine;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\RemoteAccess;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\TCSoap;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\gsoap;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\Authentication;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\authserver\Realms;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Accounts;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Addons;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Battlegrounds;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Chat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Combat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\DataStores;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Corpse;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Creature;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\DynamicObject;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\GameObject;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Item;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Item\Container;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Object;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Object\Updates;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Unit;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Vehicle;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Globals;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Grids;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Grids\Cells;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Handlers;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Instances;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Loot;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Mails;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Miscellaneous;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Movement;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Movement\Waypoints;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Quests;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Scripting;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Server;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Server\Protocol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Spells\Auras;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Weather;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\World;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\DataStores;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Dynamic;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Dynamic\LinkedReference;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Networking;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Packets;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Service;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\CommandLine;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\RemoteAccess;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\worldserver\TCSoap;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\cppformat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\gsoap;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Configuration;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Cryptography\Authentication;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\authserver\Realms;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Database;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\database\Logging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Accounts;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Addons;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Battlegrounds;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Chat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Combat;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\DataStores;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Corpse;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Creature;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\DynamicObject;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\GameObject;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Item;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Item\Container;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Object;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Object\Updates;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Unit;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Entities\Vehicle;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Globals;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Grids;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Grids\Cells;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Handlers;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Instances;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Loot;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Mails;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Miscellaneous;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Movement;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Movement\Waypoints;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Quests;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Scripting;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Server;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Server\Protocol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Spells\Auras;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Weather;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\World;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\DataStores;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Dynamic;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Dynamic\LinkedReference;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Networking;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Packets;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared\Service;C:\Program Files\MySQL\MySQL Server 5.6\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\sol\CMakeFiles\b3d3aa813804eefd8006288168b7c625\INSTALL_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/HM/Desktop/cli2/sol/CMakeFiles/b3d3aa813804eefd8006288168b7c625/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\worldserver\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/HM/Desktop/cli2/sol/CMakeFiles/b3d3aa813804eefd8006288168b7c625/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\worldserver\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/HM/Desktop/cli2/sol/CMakeFiles/b3d3aa813804eefd8006288168b7c625/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\worldserver\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/HM/Desktop/cli2/sol/CMakeFiles/b3d3aa813804eefd8006288168b7c625/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\HM\Desktop\cli2\sol\src\server\worldserver\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/ALL_BUILD.vcxproj">
+      <Project>C48558B9-BA4C-3F7D-92D7-EDC7D4A684F0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

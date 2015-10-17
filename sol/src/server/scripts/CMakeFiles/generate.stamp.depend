@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/Spells/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/Commands/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/Custom/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/World/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/OutdoorPvP/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/EasternKingdoms/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/Kalimdor/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/Outland/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/Northrend/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/Events/CMakeLists.txt
+C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/server/scripts/Pet/CMakeLists.txt

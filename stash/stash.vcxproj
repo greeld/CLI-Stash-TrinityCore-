@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F55CB9DF-82F5-44EC-8475-59718F1C90C1}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>stash</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Miscellaneous;</AdditionalIncludeDirectories>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;common.lib;Detour.lib;format.lib;g3dlib.lib;Recast.lib;zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\local\boost_1_59_0\lib64-msvc-12.0;C:\Users\HM\Desktop\cli2\sol\src\common\Debug;C:\Users\HM\Desktop\cli2\sol\dep\recastnavigation\Detour\Debug;C:\Users\HM\Desktop\cli2\sol\dep\cppformat\Debug;C:\Users\HM\Desktop\cli2\sol\dep\g3dlite\Debug;C:\Users\HM\Desktop\cli2\sol\dep\recastnavigation\Recast\Debug;C:\Users\HM\Desktop\cli2\sol\x64\Debug\ZERO_CHECK;C:\Users\HM\Desktop\cli2\sol\dep\zlib\Debug</AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Miscellaneous;</AdditionalIncludeDirectories>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;common.lib;Detour.lib;format.lib;g3dlib.lib;Recast.lib;zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\local\boost_1_59_0\lib64-msvc-12.0;C:\Users\HM\Desktop\cli2\sol\src\common\Debug;C:\Users\HM\Desktop\cli2\sol\dep\recastnavigation\Detour\Debug;C:\Users\HM\Desktop\cli2\sol\dep\cppformat\Debug;C:\Users\HM\Desktop\cli2\sol\dep\g3dlite\Debug;C:\Users\HM\Desktop\cli2\sol\dep\recastnavigation\Recast\Debug;C:\Users\HM\Desktop\cli2\sol\x64\Debug\ZERO_CHECK;C:\Users\HM\Desktop\cli2\sol\dep\zlib\Debug</AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DetourCLI.h" />
+    <ClInclude Include="Lock.h" />
+    <ClInclude Include="MapCLI.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stash.h" />
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="VmapCLI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="DetourCLI.cpp" />
+    <ClCompile Include="MapCLI.cpp" />
+    <ClCompile Include="stash.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VmapCLI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sol\dep\cppformat\format.vcxproj">
+      <Project>{c6d1a214-5a9d-3ce1-b565-057acfaff322}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sol\dep\g3dlite\g3dlib.vcxproj">
+      <Project>{27e2a17c-00f9-3b8e-86ac-d6f3098fdf6e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sol\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{122e9cf4-283b-35b7-b83b-65fbddc5281c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sol\dep\recastnavigation\Recast\Recast.vcxproj">
+      <Project>{cb4f6e20-0c36-31d2-b4c9-5b6cd3fb2379}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sol\dep\zlib\zlib.vcxproj">
+      <Project>{01e08c67-2c28-3ffb-a1f2-74d18490bff7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sol\src\common\common.vcxproj">
+      <Project>{1b417f6b-09d2-3c78-abff-71de23e6967d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sol\ZERO_CHECK.vcxproj">
+      <Project>{2647b17b-6f97-32bc-b235-520760a1ca5c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

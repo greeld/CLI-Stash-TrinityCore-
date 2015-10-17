@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{09F2C7D0-10AC-3756-A584-FB2DAE9C9713}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>mmaps_generator</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\HM\Desktop\cli2\sol\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mmaps_generator.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mmaps_generator</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\HM\Desktop\cli2\sol\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mmaps_generator.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mmaps_generator</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\HM\Desktop\cli2\sol\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mmaps_generator.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mmaps_generator</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\HM\Desktop\cli2\sol\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mmaps_generator.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mmaps_generator</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\common\Debug\common.lib;..\..\..\dep\g3dlite\Debug\g3dlib.lib;..\..\..\dep\recastnavigation\Recast\Debug\Recast.lib;..\..\..\dep\recastnavigation\Detour\Debug\Detour.lib;..\..\..\dep\bzip2\Debug\bzip2.lib;..\..\..\dep\zlib\Debug\zlib.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_system-vc120-mt-gd-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_filesystem-vc120-mt-gd-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_thread-vc120-mt-gd-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_program_options-vc120-mt-gd-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_iostreams-vc120-mt-gd-1_59.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/HM/Desktop/cli2/sol/src/tools/mmaps_generator/Debug/mmaps_generator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/HM/Desktop/cli2/sol/bin/Debug/mmaps_generator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\common\Release\common.lib;..\..\..\dep\g3dlite\Release\g3dlib.lib;..\..\..\dep\recastnavigation\Recast\Release\Recast.lib;..\..\..\dep\recastnavigation\Detour\Release\Detour.lib;..\..\..\dep\bzip2\Release\bzip2.lib;..\..\..\dep\zlib\Release\zlib.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_system-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_filesystem-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_thread-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_program_options-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_iostreams-vc120-mt-1_59.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/HM/Desktop/cli2/sol/src/tools/mmaps_generator/Release/mmaps_generator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/HM/Desktop/cli2/sol/bin/Release/mmaps_generator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\common\MinSizeRel\common.lib;..\..\..\dep\g3dlite\MinSizeRel\g3dlib.lib;..\..\..\dep\recastnavigation\Recast\MinSizeRel\Recast.lib;..\..\..\dep\recastnavigation\Detour\MinSizeRel\Detour.lib;..\..\..\dep\bzip2\MinSizeRel\bzip2.lib;..\..\..\dep\zlib\MinSizeRel\zlib.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_system-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_filesystem-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_thread-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_program_options-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_iostreams-vc120-mt-1_59.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/HM/Desktop/cli2/sol/src/tools/mmaps_generator/MinSizeRel/mmaps_generator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/HM/Desktop/cli2/sol/bin/MinSizeRel/mmaps_generator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WIN32_WINNT=0x060107060001;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;SCRIPTS;NO_CORE_FUNCS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\local\boost_1_59_0;C:\Users\HM\Desktop\cli2\sol;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\zlib;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\bzip2;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\g3dlite\include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Recast\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\recastnavigation\Detour\Include;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\shared;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\server\game\Conditions;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Management;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Maps;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Collision\Models;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Debugging;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Threading;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\common\Utilities;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\dep\libmpq\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\common\RelWithDebInfo\common.lib;..\..\..\dep\g3dlite\RelWithDebInfo\g3dlib.lib;..\..\..\dep\recastnavigation\Recast\RelWithDebInfo\Recast.lib;..\..\..\dep\recastnavigation\Detour\RelWithDebInfo\Detour.lib;..\..\..\dep\bzip2\RelWithDebInfo\bzip2.lib;..\..\..\dep\zlib\RelWithDebInfo\zlib.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_system-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_filesystem-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_thread-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_program_options-vc120-mt-1_59.lib;C:\local\boost_1_59_0\lib64-msvc-12.0\libboost_iostreams-vc120-mt-1_59.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/HM/Desktop/cli2/sol/src/tools/mmaps_generator/RelWithDebInfo/mmaps_generator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/HM/Desktop/cli2/sol/bin/RelWithDebInfo/mmaps_generator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/tools/mmaps_generator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/HM/Desktop/cli2/TrinityCore-CLI -BC:/Users/HM/Desktop/cli2/sol --check-stamp-file C:\Users\HM\Desktop\cli2\sol\src\tools\mmaps_generator\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/tools/mmaps_generator/CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\HM\Desktop\cli2\sol\src\tools\mmaps_generator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/tools/mmaps_generator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/HM/Desktop/cli2/TrinityCore-CLI -BC:/Users/HM/Desktop/cli2/sol --check-stamp-file C:\Users\HM\Desktop\cli2\sol\src\tools\mmaps_generator\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/tools/mmaps_generator/CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\HM\Desktop\cli2\sol\src\tools\mmaps_generator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/tools/mmaps_generator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/HM/Desktop/cli2/TrinityCore-CLI -BC:/Users/HM/Desktop/cli2/sol --check-stamp-file C:\Users\HM\Desktop\cli2\sol\src\tools\mmaps_generator\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/tools/mmaps_generator/CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\HM\Desktop\cli2\sol\src\tools\mmaps_generator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/tools/mmaps_generator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\HM\Desktop\cmake-3.4.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/HM/Desktop/cli2/TrinityCore-CLI -BC:/Users/HM/Desktop/cli2/sol --check-stamp-file C:\Users\HM\Desktop\cli2\sol\src\tools\mmaps_generator\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/HM/Desktop/cli2/TrinityCore-CLI/src/tools/mmaps_generator/CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt;C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\HM\Desktop\cli2\sol\src\tools\mmaps_generator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\IntermediateValues.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\MapBuilder.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\PathCommon.h" />
+    <ClInclude Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\TerrainBuilder.h" />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\IntermediateValues.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\MapBuilder.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\PathGenerator.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\TerrainBuilder.cpp"  />
+    <ClCompile Include="C:\Users\HM\Desktop\cli2\TrinityCore-CLI\src\tools\mmaps_generator\VMapExtensions.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/ZERO_CHECK.vcxproj">
+      <Project>2647B17B-6F97-32BC-B235-520760A1CA5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/dep/recastnavigation/Detour/Detour.vcxproj">
+      <Project>122E9CF4-283B-35B7-B83B-65FBDDC5281C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/dep/recastnavigation/Recast/Recast.vcxproj">
+      <Project>CB4F6E20-0C36-31D2-B4C9-5B6CD3FB2379</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/dep/bzip2/bzip2.vcxproj">
+      <Project>2B86F9D5-3774-3EFA-8739-5E7601AC4C83</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/src/common/common.vcxproj">
+      <Project>1B417F6B-09D2-3C78-ABFF-71DE23E6967D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/dep/g3dlite/g3dlib.vcxproj">
+      <Project>27E2A17C-00F9-3B8E-86AC-D6F3098FDF6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/HM/Desktop/cli2/sol/dep/zlib/zlib.vcxproj">
+      <Project>01E08C67-2C28-3FFB-A1F2-74D18490BFF7</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
